@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1344.738">
+    <Grid Margin="0,0,41,0">
+        <Button x:Name="button" Content="НАЧАТЬ ИГРУ" HorizontalAlignment="Left" Margin="583,212,0,0" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.651,2.037" Click="Button_Click_1" Height="40"/>
+        <Label x:Name="Label" Content="СЛАВЯНЕ ПРОТИВ ЯЩЕРОВ!!!!" HorizontalAlignment="Left" Margin="10,10,-27,0" VerticalAlignment="Top" Width="1313" Height="197" />
+        <Button Content="Загрузить" HorizontalAlignment="Left" Margin="27,378,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click_2"/>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="27,342,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click_3"/>
+        <StackPanel x:Name="buttonPanel" HorizontalAlignment="Left" Height="98" Margin="443,264,0,0" VerticalAlignment="Top" Width="400"/>
+
+    </Grid>
+</Window>
